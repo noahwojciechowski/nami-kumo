@@ -1,4 +1,4 @@
-# Nami Kumo () - Restaurant Japonais
+# Nami Kumo - Restaurant Japonais
 
 **Nami Kumo** est une application web immersive pour un restaurant japonais contemporain haut de gamme.
 
