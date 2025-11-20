@@ -11,7 +11,7 @@ const dishes: MenuItem[] = [
     name: "Donburi Wagyu",
     description: "Bœuf Wagyu A5, riz vinaigré tiède, jaune d'œuf confit au soja, truffe noire.",
     price: "45€",
-    image: "./public/images/donburi-wagyu.jpg",
+    image: "/images/donburi-wagyu.jpg",
     category: "Signature"
   },
   {
@@ -19,7 +19,7 @@ const dishes: MenuItem[] = [
     name: "Sushis Créatifs",
     description: "Sélection de 8 pièces. Saumon brûlé, Saint-Jacques yuzu, Thon toro fumé.",
     price: "32€",
-    image: "./public/images/sushi.jpg",
+    image: "/images/sushi.jpg",
     category: "Sushi"
   },
   {
@@ -27,7 +27,7 @@ const dishes: MenuItem[] = [
     name: "Mochis Glacés Maison",
     description: "Thé vert matcha, Sésame noir, Fleur de cerisier. Servis avec thé Genmaicha.",
     price: "14€",
-    image: "./public/images/mochi.jpg",
+    image: "/images/mochi.jpg",
     category: "Dessert"
   }
 ];

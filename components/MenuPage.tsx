@@ -87,25 +87,25 @@ export const MenuPage: React.FC = () => {
         name: "Edamame à la Truffe", 
         description: "Fèves de soja vapeur, huile de truffe blanche, sel de Guérande.", 
         price: "9€",
-        image: "./public/images/edamame.jpg"
+        image: "/images/edamame.jpg"
       },
       { 
         name: "Tataki de Bœuf", 
         description: "Filet de bœuf saisi, sauce ponzu, oignons frits, micro-pousses.", 
         price: "18€",
-        image: "./public/images/tataki.jpg"
+        image: "/images/tataki.jpg"
       },
       { 
         name: "Gyoza Maison", 
         description: "Raviolis grillés au poulet et légumes, sauce soja sésame (5 pièces).", 
         price: "12€",
-        image: "./public/images/gyoza.jpg"
+        image: "/images/gyoza.jpg"
       },
       { 
         name: "Soupe Miso Royale", 
         description: "Bouillon dashi, tofu soyeux, algues wakame, champignons shiitake, crabe.", 
         price: "14€",
-        image: "./public/images/miso.jpg"
+        image: "/images/miso.jpg"
       }
     ],
     sushi: [
@@ -145,7 +145,7 @@ export const MenuPage: React.FC = () => {
         name: "Katsu Curry", 
         description: "Porc pané panko, curry japonais doux, riz, pickles.", 
         price: "24€",
-        image: "./public/images/katsu-curry.jpg"
+        image: "/images/katsu-curry.jpg"
       },
       { 
         name: "Udon Tempura", 
@@ -157,7 +157,7 @@ export const MenuPage: React.FC = () => {
         name: "Black Cod Miso", 
         description: "Cabillaud mariné au miso blanc pendant 48h, cuit au four.", 
         price: "38€",
-        image: "./public/images/black-cod-miso.jpg"
+        image: "/images/black-cod-miso.jpg"
       }
     ],
     desserts: [
@@ -165,7 +165,7 @@ export const MenuPage: React.FC = () => {
         name: "Mochis Glacés", 
         description: "Duo de mochis : Thé vert et Sésame noir.", 
         price: "10€",
-        image: "./public/images/mochi.jpg"
+        image: "/images/mochi.jpg"
       },
       { 
         name: "Cheesecake Yuzu", 
@@ -177,7 +177,7 @@ export const MenuPage: React.FC = () => {
         name: "Perles du Japon", 
         description: "Tapioca au lait de coco, mangue fraîche, coulis passion.", 
         price: "11€",
-        image: "./public/images/perles-japon.jpg"
+        image: "/images/perles-japon.jpg"
       }
     ],
     drinks: [
@@ -185,7 +185,7 @@ export const MenuPage: React.FC = () => {
         name: "Junmai Daiginjo (Saké)",
         description: "Saké premium frais, notes florales élégantes et texture soyeuse (12cl).",
         price: "16€",
-        image: "./public/images/sake.jpg"
+        image: "/images/sake.jpg"
       },
       {
         name: "Thé Vert Sencha",
@@ -197,7 +197,7 @@ export const MenuPage: React.FC = () => {
         name: "Matcha Latte",
         description: "Poudre de matcha cérémoniel, lait velouté, légère touche de miel.",
         price: "7€",
-        image: "./public/images/matcha-latte.jpg"
+        image: "/images/matcha-latte.jpg"
       },
       {
         name: "Whisky Japonais",
