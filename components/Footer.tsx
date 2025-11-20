@@ -1,13 +1,17 @@
 import React from 'react';
+import { Logo } from './Logo';
 
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-nami-cream py-16 px-6 border-t border-nami-earth/20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
         
-        <div className="space-y-4">
-          <h3 className="font-serif text-2xl text-nami-wood">NAMI KUMO</h3>
-          <p className="text-sm text-nami-wood/70 leading-relaxed">
+        <div className="space-y-4 flex flex-col items-center md:items-start">
+          <div className="flex items-center space-x-3 mb-2">
+            <Logo className="w-8 h-8 text-nami-wood" />
+            <h3 className="font-serif text-2xl text-nami-wood">NAMI KUMO</h3>
+          </div>
+          <p className="text-sm text-nami-wood/70 leading-relaxed max-w-xs mx-auto md:mx-0">
             Une expérience culinaire japonaise<br/>au cœur de la ville.
           </p>
         </div>

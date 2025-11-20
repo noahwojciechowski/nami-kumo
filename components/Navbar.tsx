@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Logo } from './Logo';
 
 interface NavbarProps {
   isMenuPage?: boolean;
@@ -38,8 +39,11 @@ export const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <nav className={navClasses}>
-      <button onClick={onNavigateHome} className="text-2xl font-serif font-medium tracking-widest text-nami-wood cursor-pointer focus:outline-none">
-        NAMI KUMO
+      <button onClick={onNavigateHome} className="flex items-center gap-3 group focus:outline-none">
+        <Logo className="w-8 h-8 text-nami-wood group-hover:text-nami-earth transition-colors duration-300" />
+        <span className="text-xl md:text-2xl font-serif font-medium tracking-widest text-nami-wood group-hover:text-nami-earth transition-colors duration-300">
+          NAMI KUMO
+        </span>
       </button>
       <div className="hidden md:flex space-x-8 items-center">
         {isMenuPage ? (

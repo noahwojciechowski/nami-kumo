@@ -1,4 +1,5 @@
 import React from 'react';
+import { Logo } from './Logo';
 
 interface HeroProps {
   onMenuClick: () => void;
@@ -16,7 +17,10 @@ export const Hero: React.FC<HeroProps> = ({ onMenuClick, onReservationClick }) =
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-20">
-        <span className="block text-nami-wood tracking-[0.3em] text-sm md:text-base mb-6 uppercase animate-fade-in-up">
+        <div className="mb-8 animate-fade-in-up flex justify-center">
+           <Logo className="w-20 h-20 text-nami-wood opacity-90" />
+        </div>
+        <span className="block text-nami-wood tracking-[0.3em] text-sm md:text-base mb-6 uppercase animate-fade-in-up delay-100">
           Cuisine Japonaise Contemporaine
         </span>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-nami-wood mb-8 leading-tight tracking-wide">
