@@ -7,7 +7,7 @@ export const About: React.FC = () => {
         <div className="relative group">
           <div className="absolute -inset-4 border border-nami-earth rounded-sm opacity-50 transform translate-x-2 translate-y-2 transition-transform duration-500 group-hover:translate-x-4 group-hover:translate-y-4"></div>
           <img 
-            src="./dist/assets/images/sushi-chef.jpg" 
+            src="./images/sushi-chef.jpg" 
             alt="Chef preparing sushi" 
             className="relative w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out rounded-sm shadow-xl"
           />
